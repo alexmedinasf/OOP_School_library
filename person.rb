@@ -1,4 +1,5 @@
 # person.rb
+require_relative 'nameable'  # this line ensure proper inheritance
 class Person < Nameable
   attr_reader :name, :age
 
