@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # This file defines the Student class, representing students associated with the school library app.
 class Student < Person
   attr_accessor :classroom

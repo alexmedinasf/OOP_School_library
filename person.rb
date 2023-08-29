@@ -1,8 +1,9 @@
-# This file defines the Person class, representing individuals associated with the school library app.
+# person.rb
 class Person < Nameable
     attr_reader :name, :age
   
     def initialize(age, name)
+      super()  # Call super to initialize the parent class (Nameable)
       @age = age
       @name = name
     end
