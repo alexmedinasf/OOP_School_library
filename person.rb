@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # person.rb
 class Person < Nameable
   attr_reader :name, :age
