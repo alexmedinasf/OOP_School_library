@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # This file defines the Person class, representing individuals associated with the school library app.
 class Person
   attr_accessor :name, :age
