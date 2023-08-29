@@ -29,7 +29,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [OOP_School_library] <a name="about-project"></a>
 
 **[OOP_School_library]** In this project, I started building a school library app. In this initial step, I implemented the classes to represent students and teachers.
 
@@ -41,8 +41,11 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Implement classes and objects in Ruby]**
-- **[Implement encapsulation and inheritance with RubY]**
+- **Classes**
+- **Rubocop install**
+- **Gems install**
+- **"Decorator" design pattern**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
