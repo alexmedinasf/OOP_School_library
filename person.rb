@@ -1,4 +1,3 @@
-# frozen_string_literal: true
 
 # This file defines the Person class, representing individuals associated with the school library app.
 class Person
@@ -11,7 +10,6 @@ class Person
     @age = age
     @parent_permission = parent_permission
   end
-
 
   private
 
