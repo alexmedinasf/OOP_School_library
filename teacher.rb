@@ -1,4 +1,3 @@
-
 require_relative 'person'
 
 # This file defines the Teacher class, representing teachers associated with the school library app.

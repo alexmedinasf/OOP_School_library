@@ -1,4 +1,3 @@
-
 require_relative 'person'
 
 # This file defines the Student class, representing students associated with the school library app.
