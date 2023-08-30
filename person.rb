@@ -1,24 +1,15 @@
-# This file defines the Person class, representing individuals associated with the school library app.
-class Person
-  attr_accessor :name, :age
-  attr_reader :id
+# person.rb
+require_relative 'nameable' # This line ensures proper inheritance
+class Person < Nameable
+  attr_reader :name, :age
 
-  def initialize(age:, parent_permission: true, name: 'Unknown')
-    @id = Random.rand(1..1000)
-    @name = name
+  def initialize(age, name)
+    super()
     @age = age
-    @parent_permission = parent_permission
+    @name = name
   end
 
-  private
-
-  def of_age?
-    @age >= 18
-  end
-
-  public
-
-  def can_use_services?
-    @age >= 18 || @parent_permission
+  def correct_name
+    name
   end
 end
