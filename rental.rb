@@ -11,3 +11,11 @@ class Rental
     person.add_rental(self)
   end
 end
+
+def initialize(date, book, person)
+    @date = date
+    @book = book
+    @person = person
+    person.add_rental(self)
+  end
+end
