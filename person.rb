@@ -25,3 +25,15 @@ class Student < Person
     classroom.add_student(self)
   end
 end
+
+def initialize(age, name)
+  super()
+  @age = age
+  @name = name
+  @rentals = []
+end
+
+def add_rental(rental)
+  @rentals << rental
+end
+end
