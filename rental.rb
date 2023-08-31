@@ -1,3 +1,4 @@
+#rentak.rb
 class Rental
   attr_accessor :date
   attr_reader :book, :person
@@ -12,7 +13,7 @@ end
 
 def initialize(date, book, person)
   @date = date
-    @book = book
-    @person = person
-    person.add_rental(self)
+  @book = book
+  @person = person
+  person.add_rental(self)
 end
