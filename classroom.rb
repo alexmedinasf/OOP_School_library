@@ -1,9 +1,15 @@
-# frozen_string_literal: true
-
+# classroom.rb
 class Classroom
-  attr_accessor :label
-
-  def initialize(label)
-    @label = label
+    attr_accessor :label, :students
+  
+    def initialize(label)
+      @label = label
+      @students = []
+    end
+  
+    def add_student(student)
+      @students << student
+      student.classroom = self
+    end
   end
-end
+  
