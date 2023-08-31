@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class Rental
   attr_accessor :date
   attr_reader :book, :person
@@ -13,7 +11,7 @@ class Rental
 end
 
 def initialize(date, book, person)
-    @date = date
+  @date = date
     @book = book
     @person = person
     person.add_rental(self)
