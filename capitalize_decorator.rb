@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # capitalize_decorator.rb
 require_relative 'base_decorator'
 

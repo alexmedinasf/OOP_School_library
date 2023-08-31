@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 class Classroom
-    attr_accessor :label
-  
-    def initialize(label)
-      @label = label
-    end
+  attr_accessor :label
+
+  def initialize(label)
+    @label = label
   end
+end

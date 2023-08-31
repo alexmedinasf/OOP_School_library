@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # nameable.rb
 class Nameable
   def correct_name

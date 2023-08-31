@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # base_decorator.rb
 class BaseDecorator < Nameable
   def initialize(nameable)

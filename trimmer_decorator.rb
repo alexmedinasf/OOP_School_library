@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # trimmer_decorator.rb
 require_relative 'base_decorator'
 
