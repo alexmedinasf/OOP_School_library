@@ -34,4 +34,3 @@ end
 def add_rental(rental)
   @rentals << rental
 end
-end

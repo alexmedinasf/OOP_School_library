@@ -18,4 +18,3 @@ def initialize(date, book, person)
     @person = person
     person.add_rental(self)
   end
-end
