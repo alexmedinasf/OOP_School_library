@@ -1,16 +1,16 @@
-# This file defines the Student class, representing students associated with the school library app.
+# student.rb
 
 class Student < Person
-  attr_accessor :classroom
+  attr_accessor :name, :age, :rentals, :classroom
 
   def initialize(age, name, classroom)
     super(age, name)
     self.classroom = classroom
+    @rentals = []
   end
 
-  def classroom=(classroom)
-    @classroom = classroom
-    classroom.students.push(self) unless classroom.students.include?(self)
+  def add_rental(rental)
+    @rentals.push(rental)
   end
 
   def play_hooky
