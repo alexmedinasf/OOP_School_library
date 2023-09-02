@@ -1,12 +1,3 @@
-require_relative './classes/person'
-require_relative './classes/student'
-require_relative './classes/classroom'
-require_relative './classes/teacher'
-require_relative './classes/capitalize_decorator'
-require_relative './classes/trimmer_decorator'
-require_relative './classes/book'
-require_relative './classes/rental'
-
 class App
   attr_reader :title
   attr_accessor :books_list, :people_list, :rentals_list
@@ -141,8 +132,6 @@ class App
   end
 
   def create_student(name, age)
-    print 'Has parent permission? [Y/N]:'
-    has_permission = gets.chomp.strip.upcase
     classroom = Classroom.new('Biology')
     new_student = Student.new(age, name, classroom)
     new_student.type = 'Student'
